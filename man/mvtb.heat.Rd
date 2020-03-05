@@ -4,8 +4,17 @@
 \alias{mvtb.heat}
 \title{Clustered heatmap of tables from \code{mvtb}}
 \usage{
-mvtb.heat(x, clust.method = "ward.D", dist.method = "manhattan", dec = 2,
-  numformat = NULL, col = NULL, cexRow = NULL, cexCol = NULL, ...)
+mvtb.heat(
+  x,
+  clust.method = "ward.D",
+  dist.method = "manhattan",
+  dec = 2,
+  numformat = NULL,
+  col = NULL,
+  cexRow = NULL,
+  cexCol = NULL,
+  ...
+)
 }
 \arguments{
 \item{x}{Any table. For example: the covariance explained from \code{mvtb.covex}, or relative influence \code{mvtb.ri(res)}.}

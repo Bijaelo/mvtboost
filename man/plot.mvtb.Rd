@@ -4,8 +4,17 @@
 \alias{plot.mvtb}
 \title{Plots the model implied effect of 1 predictor for one outcome}
 \usage{
-\method{plot}{mvtb}(x, predictor.no = 1, response.no = 1, n.trees = NULL,
-  X = NULL, xlab = NULL, ylab = NULL, return.grid = FALSE, ...)
+\method{plot}{mvtb}(
+  x,
+  predictor.no = 1,
+  response.no = 1,
+  n.trees = NULL,
+  X = NULL,
+  xlab = NULL,
+  ylab = NULL,
+  return.grid = FALSE,
+  ...
+)
 }
 \arguments{
 \item{x}{\code{mvtb} output object}

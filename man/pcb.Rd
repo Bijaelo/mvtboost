@@ -4,11 +4,25 @@
 \alias{pcb}
 \title{boost principal components of outcomes}
 \usage{
-pcb(Y, X, n.trees = 100, shrinkage = 0.01, interaction.depth = 1,
-  distribution = "gaussian", train.fraction = 1, bag.fraction = 1,
-  cv.folds = 1, keep.data = FALSE, s = NULL, compress = FALSE,
-  save.cv = FALSE, iter.details = TRUE, verbose = FALSE, mc.cores = 1,
-  ...)
+pcb(
+  Y,
+  X,
+  n.trees = 100,
+  shrinkage = 0.01,
+  interaction.depth = 1,
+  distribution = "gaussian",
+  train.fraction = 1,
+  bag.fraction = 1,
+  cv.folds = 1,
+  keep.data = FALSE,
+  s = NULL,
+  compress = FALSE,
+  save.cv = FALSE,
+  iter.details = TRUE,
+  verbose = FALSE,
+  mc.cores = 1,
+  ...
+)
 }
 \arguments{
 \item{Y}{vector, matrix, or data.frame for outcome variables with no missing values. To easily compare influences across outcomes and for numerical stability, outcome variables should be scaled to have unit variance.}

@@ -1,3 +1,8 @@
+# mvtboost 0.5.1
+
+- package maintainer changed.
+- No changes to the internal structure of the package.
+
 # mvtboost 0.4.4
 
 - `mvtb.covex` now estimates the covariance explained matrix, it is not estimated by default 

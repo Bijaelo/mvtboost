@@ -4,8 +4,13 @@
 \alias{mvtb.cluster}
 \title{Clustering the covariance explained or relative influence matrix}
 \usage{
-mvtb.cluster(x, clust.method = "complete", dist.method = "euclidean",
-  plot = FALSE, ...)
+mvtb.cluster(
+  x,
+  clust.method = "complete",
+  dist.method = "euclidean",
+  plot = FALSE,
+  ...
+)
 }
 \arguments{
 \item{x}{Any matrix, such as \code{mvtb.covex(object)}, or \code{mvtb.ri(object)}.}

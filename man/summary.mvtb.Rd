@@ -4,8 +4,7 @@
 \alias{summary.mvtb}
 \title{Computes a summary of the multivariate tree boosting model}
 \usage{
-\method{summary}{mvtb}(object, print = TRUE, n.trees = NULL,
-  relative = "col", ...)
+\method{summary}{mvtb}(object, print = TRUE, n.trees = NULL, relative = "col", ...)
 }
 \arguments{
 \item{object}{mvtb output object}

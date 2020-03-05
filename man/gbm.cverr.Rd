@@ -4,11 +4,25 @@
 \alias{gbm.cverr}
 \title{Tune gbm via cross-validation to find the best set of metaparameters}
 \usage{
-gbm.cverr(x, y, distribution = "gaussian", cv.folds = 5, fit.best = T,
-  nt.start = 1000, nt.inc = 1000, verbose = T, w = NULL,
-  var.monotone = NULL, interaction.depth = 1, n.minobsinnode = 10,
-  shrinkage = 0.001, bag.fraction = 0.5, n.cores = 1, max.time = NULL,
-  seed = NULL)
+gbm.cverr(
+  x,
+  y,
+  distribution = "gaussian",
+  cv.folds = 5,
+  fit.best = T,
+  nt.start = 1000,
+  nt.inc = 1000,
+  verbose = T,
+  w = NULL,
+  var.monotone = NULL,
+  interaction.depth = 1,
+  n.minobsinnode = 10,
+  shrinkage = 0.001,
+  bag.fraction = 0.5,
+  n.cores = 1,
+  max.time = NULL,
+  seed = NULL
+)
 }
 \arguments{
 \item{x}{A \eqn{n x p} matrix or data frame of predictors.}
@@ -171,7 +185,7 @@ corresponding to each row, and (3) the number of trees that yielded the
 minimum cross-validation error in each row. These results are intended to 
 allow users to make informed decisions about the metaparameters passed to 
 \code{gbm} when fitting the model that will be interpreted and/or used for
-prediction in the future.
+prediction in the future. 
 
 Note that the metaparamter values passed to \code{w}, \code{var.monotone}, 
 \code{interaction.depth}, \code{n.minobsinnode}, \code{shrinkage}, and 

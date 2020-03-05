@@ -10,17 +10,13 @@
 \usage{
 influence(model, n.trees = NULL, relative = TRUE, sort = TRUE, ...)
 
-\method{influence}{mvtb}(model, n.trees = NULL, relative = "col",
-  sort = FALSE, ...)
+\method{influence}{mvtb}(model, n.trees = NULL, relative = "col", sort = FALSE, ...)
 
-\method{influence}{twostage}(model, n.trees = NULL, relative = TRUE,
-  sort = FALSE, ...)
+\method{influence}{twostage}(model, n.trees = NULL, relative = TRUE, sort = FALSE, ...)
 
-\method{influence}{metb}(model, n.trees = NULL, relative = TRUE,
-  sort = FALSE, ...)
+\method{influence}{metb}(model, n.trees = NULL, relative = TRUE, sort = FALSE, ...)
 
-\method{influence}{pcb}(model, n.trees = NULL, relative = "col",
-  sort = FALSE, ...)
+\method{influence}{pcb}(model, n.trees = NULL, relative = "col", sort = FALSE, ...)
 }
 \arguments{
 \item{model}{object from \code{mvtb, metb, pcb, twostage}}

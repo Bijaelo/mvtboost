@@ -5,15 +5,43 @@
 \alias{metb.fit}
 \title{Boosted decision trees with random effects}
 \usage{
-metb(y, X, id, n.trees = 5, interaction.depth = 3, n.minobsinnode = 20,
-  shrinkage = 0.01, bag.fraction = 0.5, train.fraction = NULL,
-  cv.folds = 1, subset = NULL, indep = TRUE, save.mods = FALSE,
-  mc.cores = 1, num_threads = 1, verbose = TRUE, ...)
+metb(
+  y,
+  X,
+  id,
+  n.trees = 5,
+  interaction.depth = 3,
+  n.minobsinnode = 20,
+  shrinkage = 0.01,
+  bag.fraction = 0.5,
+  train.fraction = NULL,
+  cv.folds = 1,
+  subset = NULL,
+  indep = TRUE,
+  save.mods = FALSE,
+  mc.cores = 1,
+  num_threads = 1,
+  verbose = TRUE,
+  ...
+)
 
-metb.fit(y, X, id, n.trees = 5, interaction.depth = 3,
-  n.minobsinnode = 20, shrinkage = 0.01, bag.fraction = 0.5,
-  train.fraction = NULL, subset = NULL, indep = TRUE, num_threads = 1,
-  save.mods = FALSE, verbose = TRUE, ...)
+metb.fit(
+  y,
+  X,
+  id,
+  n.trees = 5,
+  interaction.depth = 3,
+  n.minobsinnode = 20,
+  shrinkage = 0.01,
+  bag.fraction = 0.5,
+  train.fraction = NULL,
+  subset = NULL,
+  indep = TRUE,
+  num_threads = 1,
+  save.mods = FALSE,
+  verbose = TRUE,
+  ...
+)
 }
 \arguments{
 \item{y}{outcome vector (continuous)}

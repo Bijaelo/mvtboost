@@ -9,11 +9,11 @@ clustered data. Additionally, functions are provided for easy tuning by cross-va
 
 The package depends on the most recent version of `gbm`, which includes multi-threaded tree-fitting. It can be installed here (eventually deprecated):
 
-    devtools::install_github("patr1ckm/gbm")
+    devtools::install_github("Bijaelo/gbm")
     
 The package can be installed as follows:
 
-    devtools::install_github("patr1ckm/mvtboost")
+    devtools::install_github("Bijaelo/mvtboost")
 
 *2017-07-22*
 
